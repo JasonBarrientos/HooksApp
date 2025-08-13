@@ -5,9 +5,10 @@ import { CounterApp } from './01-useState/CounterApp'
 import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 import { SimpleForm } from './02-useEffect/simpleForm'
 import './index.css'
+import { SimpleFormWithCustomHook } from './02-useEffect/SimpleFormWithCustomHook'
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-    <SimpleForm />
+    <SimpleFormWithCustomHook />
   // </StrictMode>,
 )
