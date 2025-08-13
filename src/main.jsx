@@ -6,9 +6,10 @@ import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 import { SimpleForm } from './02-useEffect/simpleForm'
 import './index.css'
 import { SimpleFormWithCustomHook } from './02-useEffect/SimpleFormWithCustomHook'
+import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-    <SimpleFormWithCustomHook />
+    <MultipleCustomHooks />
   // </StrictMode>,
 )
